@@ -72,22 +72,6 @@ echo -e "$COLOR1  ╠➣$NC 8.  EditIP Account XRAYS Vmess $COLOR1  ╠➣$NC 19
 echo -e "$COLOR1  ╠➣$NC 9.  EditBW Account XRAYS Vmess $COLOR1  ╠➣$NC 20. EditBW Account XRAYS VLESS $COLOR1  ║ "
 echo -e "$COLOR1  ╠➣$NC 10. Locked Account XRAYS Vmess $COLOR1  ╠➣$NC 21. Locked Account XRAYS VLESS $COLOR1  ║ "
 echo -e "$COLOR1  ╠➣$NC 11. Unlock Account XRAYS Vmess $COLOR1  ╠➣$NC 22. Unlock Account XRAYS VLESS $COLOR1  ║ "
-echo -e "$COLOR1  ║-----------------------------------║-----------------------------------║"
-echo -e "$COLOR1  ╚═══════════════════════════════════╩═══════════════════════════════════╝$NC"
-echo -e "$COLOR1  ╔═══════════════════════════════════╦═══════════════════════════════════╗"
-echo -e "$COLOR1  ║$WH         ✶ TROJAN WS/GRPC ✶ $COLOR1       ║$WH     ✶ SHADOWSOCKS WS/GRPC ✶       $COLOR1║"
-echo -e "$COLOR1  ║-----------------------------------║-----------------------------------║"
-echo -e "$COLOR1  ╠➣$NC 23. Create Account XRAYS Trojan $COLOR1 ╠➣$NC 19. Create Account ShadowSocks $COLOR1  ║"
-echo -e "$COLOR1  ╠➣$NC 24. Trial  Account XRAYS Trojan $COLOR1 ╠➣$NC 20. Trial  Account ShadowSocks $COLOR1  ║"
-echo -e "$COLOR1  ╠➣$NC 25. Delete Account XRAYS Trojan $COLOR1 ╠➣$NC 21. Delete Account ShadowSocks $COLOR1  ║"
-echo -e "$COLOR1  ╠➣$NC 26. Rennew Account XRAYS Trojan $COLOR1 ╠➣$NC 22. Rennew Account ShadowSocks $COLOR1  ║"
-echo -e "$COLOR1  ╠➣$NC 27. Login  Account XRAYS Trojan $COLOR1 ╠➣$NC 23. Login  Account ShadowSocks $COLOR1  ║"
-echo -e "$COLOR1  ╠➣$NC 28. Config Account XRAYS Trojan $COLOR1 ╠➣$NC 24. Config Account ShadowSocks $COLOR1  ║"
-echo -e "$COLOR1  ╠➣$NC 28. Recver Account XRAYS Trojan $COLOR1
-echo -e "$COLOR1  ╠➣$NC 28. EditIP Account XRAYS Trojan $COLOR1
-echo -e "$COLOR1  ╠➣$NC 28. EditBW Account XRAYS Trojan $COLOR1
-echo -e "$COLOR1  ╠➣$NC 28. Locked Account XRAYS Trojan $COLOR1
-echo -e "$COLOR1  ╠➣$NC 28. Unlock Account XRAYS Trojan $COLOR1
 echo -e "$COLOR1  ║                                 $COLOR1  ╠➣$NC 0X. Back To Menu              $COLOR1   ║ "
 echo -e "$COLOR1  ║-----------------------------------║-----------------------------------║"
 echo -e "$COLOR1  ╚═══════════════════════════════════╩═══════════════════════════════════╝$NC"
@@ -95,7 +79,7 @@ echo -e " $COLOR1 ╭═══════════════════�
 echo -e " $COLOR1 │${NC}                ${WH}• FAN vpn STORES •                  ${NC} $COLOR1│ $NC"
 echo -e " $COLOR1 ╰════════════════════════════════════════════════════╯${NC}"
 echo -e ""
-read -p "  Select From Options [ 1-24 / 0X ] »» " menu
+read -p "  Select From Options [ 1-22 / 0X ] »» " menu
 
 case $menu in
 1 | 01) clear ;
@@ -117,58 +101,52 @@ case $menu in
     list-vmess
     ;;
 7 | 07) clear ;
-    addvless
+    
     ;;
 8 | 08) clear ;
-    trialvless
+    
     ;;
 9 | 09) clear ;
-    delvless
+    
     ;;
 10) clear ;
-    renewvless
+    
     ;;
 11) clear ;
-    cekvless
+    
     ;;
 12) clear ;
+    addvless
+    ;;
+13) clear ;
+    trialvless
+    ;;
+14) clear ;
+    delvless
+    ;;
+15) clear ;
+    renewvless
+    ;;
+16) clear ;
+    cekvless
+    ;;
+17) clear ;
     list-vless
     ;;
-13)
-    addtr
-    ;;
-14)
-    trialtr
-    ;;
-15)
-    deltr
-    ;;
-16)
-    renewtr
-    ;;
-17)
-    cektr
-    ;;
 18)
-    list-trojan
+    
     ;;
 19)
-    addss
+    
     ;;
 20)
-    trialss
+    
     ;;
 21)
-    delss
+    
     ;;
 22)
-    renewss
-    ;;
-23)
-    cekss
-    ;;
-24)
-    list-ssws
+    
     ;;
 0 | 00 | x | X | 0x | 0X)
     clear
