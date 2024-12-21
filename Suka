@@ -101,19 +101,19 @@ case $menu in
     list-vmess
     ;;
 7 | 07) clear ;
-    
+    recover-vm
     ;;
 8 | 08) clear ;
-    
+    ganti-ip-vmess
     ;;
 9 | 09) clear ;
-    
+    change-vmess-qouta
     ;;
 10) clear ;
-    
+    lock-vm
     ;;
 11) clear ;
-    
+    unlock-vm
     ;;
 12) clear ;
     addvless
@@ -134,19 +134,19 @@ case $menu in
     list-vless
     ;;
 18)
-    
+    recover-vl
     ;;
 19)
-    
+    ganti-ip-vless
     ;;
 20)
-    
+    change-vless-qouta
     ;;
 21)
-    
+    lock-vl
     ;;
 22)
-    
+    unlock-vl
     ;;
 0 | 00 | x | X | 0x | 0X)
     clear
